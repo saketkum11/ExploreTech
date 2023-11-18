@@ -18,7 +18,7 @@ function App() {
     <>
       <div>
         <h1>Connecting Backend to Frontend</h1>
-        {data.map((item, index) => {
+        {data.map((item) => {
           return (
             <>
               <div key={`${item.value}`}>
